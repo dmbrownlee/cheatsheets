@@ -29,6 +29,6 @@ from normal mode | result
 shell command | result
 --- | ---
 <code>vim *file1* *file2* ...</code>|Opens vim with a single window and multiple files open in separate buffers.</br>Use <code>:n</code> and <code>:N</code> to go forward and backward between buffers.
-<code>vim -O *file1* *file2* ...</code>|Opens vim with a single window and multiple, *vertical* panes, each with its on buffer containing a file.</br>Use <code>Ctrl-w,Ctrl-w</code> to cycle through the panes.
-<code>vim -o *file1* *file2* ...</code>|Opens vim with a single window and multiple, *horizontal* panes, each with its on buffer containing a file.</br>Use <code>Ctrl-w,Ctrl-w</code> to cycle through the panes.
+<code>vim -O *file1* *file2* ...</code>|Opens vim with multiple, *vertical* windows, each with its on buffer containing a file.</br>Use <code>Ctrl-w,Ctrl-w</code> to cycle through the windows.
+<code>vim -o *file1* *file2* ...</code>|Opens vim with multiple, *horizontal* windows, each with its on buffer containing a file.</br>Use <code>Ctrl-w,Ctrl-w</code> to cycle through the windows.
 <code>vim -p *file1* *file2* ...</code>|Opens vim with a single window and multiple tabs, each with its own buffer containing a file.</br>Use <code>gt</code> and <code>gT</code> to go forward and backward between tabs.
